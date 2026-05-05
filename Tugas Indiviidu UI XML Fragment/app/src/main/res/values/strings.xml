@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Nama Aplikasi Anda</string> <!-- Bawaan aplikasi -->
+
+
+    <string name="judul_frag_1">Fragment 1 (Menu Utama)</string>
+    <string name="judul_frag_2">Ini Fragment 2</string>
+    <string name="judul_frag_3">Ini Fragment 3</string>
+    <string name="judul_frag_4">Ini Fragment 4</string>
+    <string name="judul_frag_5">Ini Fragment 5</string>
+    <string name="judul_frag_6">Ini Fragment 6</string>
+    <string name="judul_frag_7">Ini Fragment 7</string>
+    <string name="judul_frag_8">Ini Fragment 8</string>
+    <string name="judul_frag_9">Ini Fragment 9</string>
+    <string name="judul_frag_10">Ini Fragment 10</string>
+
+
+    <string name="btn_buka_2">Buka Fragment 2</string>
+    <string name="btn_buka_3">Buka Fragment 3</string>
+    <string name="btn_buka_4">Buka Fragment 4</string>
+    <string name="btn_buka_5">Buka Fragment 5</string>
+    <string name="btn_buka_6">Buka Fragment 6</string>
+    <string name="btn_buka_7">Buka Fragment 7</string>
+    <string name="btn_buka_8">Buka Fragment 8</string>
+    <string name="btn_buka_9">Buka Fragment 9</string>
+    <string name="btn_buka_10">Buka Fragment 10</string>
+    <string name="btn_kembali_awal">Kembali ke Awal (Fragment 1)</string>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentSatu2">
+
+    <fragment
+        android:id="@+id/fragmentSatu2"
+        android:name="com.example.fragment.FragmentSatu"
+        android:label="fragment_satu"
+        tools:layout="@layout/fragment_satu" >
+        <action
+            android:id="@+id/action_fragmentSatu2_to_fragmentDua"
+            app:destination="@id/fragmentDua" />
+        <action
+            android:id="@+id/action_fragmentSatu2_to_fragmentTiga"
+            app:destination="@id/fragmentTiga" />
+        <action
+            android:id="@+id/action_fragmentSatu2_to_fragmentEmpat"
+            app:destination="@id/fragmentEmpat" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentDua"
+        android:name="com.example.fragment.FragmentDua"
+        android:label="fragment_dua"
+        tools:layout="@layout/fragment_dua" >
+        <action
+            android:id="@+id/action_fragmentDua_to_fragmentLima"
+            app:destination="@id/fragmentLima" />
+        <action
+            android:id="@+id/action_fragmentDua_to_fragmentEnam"
+            app:destination="@id/fragmentEnam" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTiga"
+        android:name="com.example.fragment.FragmentTiga"
+        android:label="fragment_tiga"
+        tools:layout="@layout/fragment_tiga" >
+        <action
+            android:id="@+id/action_fragmentTiga_to_fragmentTujuh"
+            app:destination="@id/fragmentTujuh" />
+        <action
+            android:id="@+id/action_fragmentTiga_to_fragmentDelapan"
+            app:destination="@id/fragmentDelapan" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentEmpat"
+        android:name="com.example.fragment.FragmentEmpat"
+        android:label="fragment_empat"
+        tools:layout="@layout/fragment_empat" >
+        <action
+            android:id="@+id/action_fragmentEmpat_to_fragmentSembilan"
+            app:destination="@id/fragmentSembilan" />
+        <action
+            android:id="@+id/action_fragmentEmpat_to_fragmentSepuluh"
+            app:destination="@id/fragmentSepuluh" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentLima"
+        android:name="com.example.fragment.FragmentLima"
+        android:label="fragment_lima"
+        tools:layout="@layout/fragment_lima" >
+        <action
+            android:id="@+id/action_fragmentLima_to_fragmentSatu2"
+            app:destination="@id/fragmentSatu2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentEnam"
+        android:name="com.example.fragment.FragmentEnam"
+        android:label="fragment_enam"
+        tools:layout="@layout/fragment_enam" >
+        <action
+            android:id="@+id/action_fragmentEnam_to_fragmentSatu2"
+            app:destination="@id/fragmentSatu2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTujuh"
+        android:name="com.example.fragment.FragmentTujuh"
+        android:label="fragment_tujuh"
+        tools:layout="@layout/fragment_tujuh" >
+        <action
+            android:id="@+id/action_fragmentTujuh_to_fragmentSatu2"
+            app:destination="@id/fragmentSatu2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentDelapan"
+        android:name="com.example.fragment.FragmentDelapan"
+        android:label="fragment_delapan"
+        tools:layout="@layout/fragment_delapan" >
+        <action
+            android:id="@+id/action_fragmentDelapan_to_fragmentSatu2"
+            app:destination="@id/fragmentSatu2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentSembilan"
+        android:name="com.example.fragment.FragmentSembilan"
+        android:label="fragment_sembilan"
+        tools:layout="@layout/fragment_sembilan" >
+        <action
+            android:id="@+id/action_fragmentSembilan_to_fragmentSatu2"
+            app:destination="@id/fragmentSatu2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentSepuluh"
+        android:name="com.example.fragment.FragmentSepuluh"
+        android:label="fragment_sepuluh"
+        tools:layout="@layout/fragment_sepuluh" >
+        <action
+            android:id="@+id/action_fragmentSepuluh_to_fragmentSatu2"
+            app:destination="@id/fragmentSatu2" />
+    </fragment>
+</navigation>

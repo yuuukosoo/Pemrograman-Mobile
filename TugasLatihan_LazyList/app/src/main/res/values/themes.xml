@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema utama aplikasi -->
+    <style name="Theme.LazyLiztLatihan" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Anda bisa menyesuaikan warna di sini -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>

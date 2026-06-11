@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TugasAPI</string>
+    <string name="student_info_template" translatable="false">
+        [API STATUS]\n
+        Pesan: %1$s\n
+        Kode: %2$s\n\n
+        [DATA MAHASISWA]\n
+        NIM: %3$s\n
+        Nama: %4$s\n
+        Jurusan: %5$s
+    </string>
+    <string name="error_message">Gagal memuat data:\n%1$s</string>
+</resources>

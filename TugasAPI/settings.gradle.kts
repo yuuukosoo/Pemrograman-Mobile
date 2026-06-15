@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "TugasAPI"
+rootProject.name = "Asignment_MockAPI"
 include(":app")
